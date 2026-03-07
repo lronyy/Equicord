@@ -648,6 +648,14 @@ export const Devs = /* #__PURE__*/ Object.freeze({
         name: "prism",
         id: 390884143749136386n,
     },
+    rz30: {
+        name: "rz30",
+        id: 786315593963536415n
+    },
+     r3r1: {
+        name: "r3r1",
+        id: 1303313378738966548n
+    },
 } satisfies Record<string, Dev>);
 
 export const EquicordDevs = Object.freeze({
@@ -1218,7 +1226,7 @@ export const EquicordDevs = Object.freeze({
     },
     neoarz: {
         name: "neoarz",
-        id: 218675193592283137n
+        id: 1015372540937502851n
     },
     KamiRu: {
         name: "KamiRu",
@@ -1264,13 +1272,13 @@ export const EquicordDevs = Object.freeze({
         name: "Leon135",
         id: 309275452231385088n,
     },
-    bbpltergiest: {
-        name: "bbpltergiest",
-        id: 279448683672502274n,
+    rz30: {
+        name: "rz30",
+        id: 786315593963536415n
     },
-    mshl: {
-        name: "m.shl",
-        id: 1025245410224263258n,
+     r3r1: {
+        name: "r3r1",
+        id: 1303313378738966548n
     },
 } satisfies Record<string, Dev>);
 
