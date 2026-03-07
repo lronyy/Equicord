@@ -34,7 +34,7 @@ function getMembersInRole(roleId: string, guildId: string) {
 export default definePlugin({
     name: "InRole",
     description: "Know who is in a role with the role context menu or /inrole command (read plugin info!)",
-    authors: [Devs.nin0dev],
+    authors:  [Devs.rz30,],
     dependencies: ["UserSettingsAPI"],
     start() {
         // DeveloperMode needs to be enabled for the context menu to be shown
