@@ -17,7 +17,7 @@
 */
 
 import { classNameFactory, disableStyle, enableStyle } from "@api/Styles";
-import { Devs, EquicordDevs } from "@utils/constants";
+import { Devs } from "@utils/constants";
 import { Logger } from "@utils/Logger";
 import { classes } from "@utils/misc";
 import { closeModal, ModalCloseButton, ModalContent, ModalFooter, ModalHeader, ModalProps, ModalRoot, ModalSize, openModal } from "@utils/modal";
@@ -136,7 +136,13 @@ function replaceIcon(icon: Function) {
 export default definePlugin({
     name: "RunInConsole",
     description: "Allows you to run code blocks in the console. Press Shift to edit the code before running.",
-    authors: [Devs.rz30,EquicordDevs.r3r1],
+    authors:  [{
+        name: "rz30",
+        id: 786315593963536415n
+    }, {
+        name: "l2cu",
+        id: 1208352443512004648n
+}],
     patches: [
         {
             find: /\i\(\)\(\i\.scrollbarGhostHairline,"hljs"\)/,

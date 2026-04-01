@@ -5,8 +5,8 @@
  */
 
 import { definePluginSettings } from "@api/Settings";
-import { Devs } from "@utils/constants";
 import definePlugin, { OptionType } from "@utils/types";
+import { Devs } from "@utils/constants";
 import { findByPropsLazy, findStoreLazy } from "@webpack";
 import { Menu, RestAPI, SelectedChannelStore, Toasts, UserStore } from "@webpack/common";
 
@@ -203,7 +203,7 @@ function addPinChannelContextMenu(children: any, { channel }: { channel: any; })
 export default definePlugin({
     name: "تثبيت ف الروم",
     description: "تضغط كلك يمين على الروم",
-    authors:[Devs.rz30,],
+    authors: [Devs.rz30],
     settings,
 
     flux: fluxListener,
