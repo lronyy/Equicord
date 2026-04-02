@@ -531,7 +531,7 @@ function removeContainer() {
 }
 
 export default definePlugin({
-    name: "HomeTyping",
+    name: "rzHomeTyping",
     description: "Changes the home button to a typing indicator if someone in your dms is typing, and shows typing notifications",
     authors: [Devs.rz30,],
     settings,
